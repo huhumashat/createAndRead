@@ -12,7 +12,11 @@ public class CreatAndRead {
        int marks;
        boolean begin=true;
        Scanner keyboard = new Scanner(System.in);
-       File directoryPath = new File("C:\\Users\\huhuMashat\\Documents\\NetBeansProjects\\creatAndRead");
+       
+//       ******************
+//       Change the link in the same project folder :)
+//       ******************
+       File directoryPath = new File("C:\\Users\\huhuMashat\\Desktop\\createAndRead");
 
        /*
            System.out.print("What do you want to do now?\n"
